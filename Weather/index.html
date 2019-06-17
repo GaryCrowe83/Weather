@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Weather Forecast</title>
+		<!-- JQuery -->
+		<script
+         	src="https://code.jquery.com/jquery-3.4.1.min.js"
+  			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  			crossorigin="anonymous">		
+  		</script>
+
+  		<!-- AJAX -->
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	
+  		
+  		<!-- Internal js and css files -->
+  		<script src="scripts.js"></script>
+  		<link rel="stylesheet" type="text/css" href="styles.css">
+  		
+  		<!-- Bootstrap 4 -->
+  		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  		<meta name="viewport" content="width = device-width initial-scale = 1">
+
+  		<!-- Popper.js -->
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	</head>
+
+	<body class="blue">
+		<h1 class="page-header">Welcome to My Weather App!</h1>
+		<div class="container1">
+			
+				<br>
+				<input class="input" type="text" id="city" placeholder="Enter a city"></input><br><br>
+				
+				<div  class="form-control1">
+					Number of Days
+					<select class="form-control2" id="days">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
+						<option>13</option>
+						<option>14</option>
+						<option>15</option>
+						<option>16</option>
+					</select>
+				</div><br><br>
+
+			    
+				<button class="btn1 btn-primary" id="getForecast" role="button">Get Forecast</button><br><br>
+			<div><div id="showForecast"></div></div><br><br>
+		</div>
+
+		<h3 class="page-header">Made using the open weather map api</h3>>
+	</body>
+</html>

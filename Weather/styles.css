@@ -1,0 +1,57 @@
+.blue{
+
+	background: url(back01.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+
+.btn1{
+	@extends btn;
+	background: #2df2f5;
+	font-size: 14px;
+	text-align: center  ;
+}
+
+.page-header{
+	text-align: center;
+	color: #ffffff;
+}
+
+.hidden{
+	display: none;
+}
+
+.unhidden{
+	display: block;
+}
+
+.card{
+	@extends container;
+	align-content: auto;
+	height: 250px;
+	width: 250px;
+	margin: auto;
+	background-color: green;
+	margin-top: 150;
+}
+
+.container1{
+	@extends container;
+	mheight: 100px;
+	width: 250px;
+	margin: auto;
+	margin-bottom: 100px;
+}
+
+.form-control2{
+	@extends form-control;
+	background-color: #3399ff;
+}
+.form-control1{
+	@extends form-control;
+	background-color: #66ccff;
+}
